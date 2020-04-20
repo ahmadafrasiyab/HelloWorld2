@@ -22,7 +22,7 @@ public class MainActivityTest {
     @Test
     public void hasTextOnScreen() {
         onView(withId(R.id.textview_first))
-                .check(matches(withText(R.string.app_name)));
+                .check(matches(withText(R.string.hello_first_fragment)));
     }
 
 }
